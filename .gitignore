@@ -36,3 +36,4 @@
 
 # Ignore IDE files
 .idea/
+.byebug_history
