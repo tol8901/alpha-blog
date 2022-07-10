@@ -34,4 +34,11 @@ class ArticlesController < ApplicationController
       render 'edit'
     end
   end
+
+  def destroy # TODO: fix the problem with deletion through the browser link
+    @article = Article.find(params[:id])
+    byebug
+    @article.destroy
+    redirect_to articles_path
+  end
 end
