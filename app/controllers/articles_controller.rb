@@ -34,7 +34,7 @@ class ArticlesController < ApplicationController
     end
   end
 
-  def destroy # TODO: fix the problem with deletion through the browser link
+  def destroy
     @article.destroy
     redirect_to articles_path
   end
@@ -42,7 +42,7 @@ class ArticlesController < ApplicationController
   private
 
   def set_article
-    @article = Article.find(params[:id])
+    @article = Article.find_by(params[:id])
   end
 
   def article_params
