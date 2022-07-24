@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# TODO:
+1) Fix issue: when click View article it shows only first article.
