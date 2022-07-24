@@ -25,3 +25,5 @@ Things you may want to cover:
 
 # TODO:
 1) Fix issue: when click View article it shows only first article.
+2) Fix issue when delete user: rails exception "Couldn't find User with 'id'=12"
+3) 
